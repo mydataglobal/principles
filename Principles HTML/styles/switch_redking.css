@@ -1,0 +1,193 @@
+body {
+background: #420000 url('../images/rk_bg.jpg');
+font-family:'Lucida Grande',Verdana, Arial, sans-serif;
+font-size:11px;
+color:#451D09;
+}
+
+#container {
+display: block; 
+height: 1450px; 
+
+width:744px;
+margin-left:auto; 
+margin-right:auto; 
+/*margin: 0 auto;*/
+padding:1px;
+border:#AE9886 1px solid;
+background: #e2e2e2 url('../images/rk_contentbg.gif') repeat-y;
+
+}
+
+#header {
+height:198px;
+width:746px;
+background: #9F876F url('../images/rk_headerbg.gif') no-repeat top left;
+margin-right:auto;
+margin-left:auto;
+border:#AE9886 1px solid;
+padding:0;
+}
+
+#header h1 {
+display: none;
+ }
+
+
+#visual{
+display: none; 
+}
+
+#text{
+width:440px;
+padding:9px;
+float:left;
+text-align:justify;
+font-family:'Lucida Grande', Verdana, Arial, sans-serif;
+font-size:12px;
+color:#451D09;
+margin-left:21px;
+}
+
+
+
+#footer, #infotext {
+width:180px;
+float:right;
+border:0px;
+margin-right:21px;
+font-family:'Lucida Grande', Verdana, Arial, sans-serif;
+font-size:10px;
+color:#451D09;
+
+}
+
+#infotext {
+	margin-top: 80px;
+}
+
+#huinfo {
+/*
+width:180px;
+text-align:right;
+padding:3px;
+border: none 0; 
+border-top: 1px dashed #666666;
+border-bottom: 1px dashed #666666;
+font-family:'Lucida Grande',Verdana, Arial, sans-serif;
+font-size:12px;
+font-weight:bold;
+color:#6F0000;
+*/
+display: none;
+}
+
+/*
+#footer{
+clear:both;
+padding:6px;
+background-color:#CCCCCC;
+text-align:center;
+font-family:'Lucida Grande', Verdana, Arial, sans-serif;
+font-size:10px;
+color:#6F0000;
+}
+*/
+
+#atlasfooter {
+	/*position: absolute;*/
+	/*
+	float: right; 
+	bottom: 0; 
+	margin-left: 60px; 
+	font-size: 80%; 
+	color: #000; 
+	color: white; 
+	*/	
+display: none; 	
+	}
+
+	
+a:link{color:#6F0000; text-decoration:none;}
+
+a:hover{color:#A30000; text-decoration:overline;}
+a:active{color:#6F0000; text-decoration:none;}
+a:active:hover{color:#A30000; text-decoration:overline;}
+a:visited{color:#6F0000; text-decoration:none;}
+a:visited:hover{color:#A30000; text-decoration:overline;}
+
+h2, h3 {
+font-family:'Lucida Grande', sans-serif, Arial, Helvetica;
+font-size:2em;
+font-weight:bold;
+color:#9F876F;
+padding-left: 20px; 
+}
+
+b {
+font-family:'Lucida Grande',Verdana, Arial, sans-serif;
+font-size:12px;
+font-weight:bold;
+color:#6F0000;
+}
+
+input,textarea,select {
+border:#A30000 1px solid;
+background-color:#E9E4DF;
+font-family:'Lucida Grande',Verdana, Arial, sans-serif;
+font-size:8pt;
+color:#6F0000;
+}
+
+
+
+/* CSS MENU EFFECT */
+/* from Listamatic - Eric Meyer */
+
+#menu
+{
+padding:0px;
+width:190px;
+height:190px;
+margin-left:526px;
+background:#9F876F;
+}
+
+#menu ul
+{
+padding: 0px 1px 1px;
+margin-left: 0px;
+margin-top: 0px;
+font: bold 12px Verdana, Helvetica, sans-serif;
+background:#990000;
+width: 190px;
+}
+
+#menu li
+{
+list-style: none;
+margin: 0;
+border-top:#990000 1px solid;
+text-align: right;
+}
+
+#menu li a
+{
+display: block;
+width:190px;
+padding: 0.25em 0.5em 0.25em 0.75em;
+border-left: 1em solid #660000;
+background: #9F876F;
+text-decoration: none;
+}
+
+#menu li a:link { color: #FFFFFF; }
+#menu li a:visited { color: #F3F3F3; }
+
+#menu li a:hover
+{
+border-color: #990000;
+color: #660000;
+background: #D7D0CA;
+}
+

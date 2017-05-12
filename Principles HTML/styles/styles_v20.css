@@ -1,0 +1,627 @@
+/*
+last revision: 2012-05-06
+stylesheet version 2.1 (released with a70)
+contains all style declarations, except for CSS switcher and entities (tabcontent)
+*/
+
+
+
+body {  
+	font-size: 9pt; 
+	font-family: Calibri, "Trebuchet MS", arial, verdana, helvetica, sans-serif; 
+	color: #333;
+    -webkit-font-variant-ligatures: no-common-ligatures;
+	}
+
+body.centered  {
+	text-align: center; 
+	background: #fff url(../images/zero_dots_07_lighter.png) no-repeat top right; 
+	}
+	
+#wrap.centered {
+	margin: 0 auto;
+	width: 600px; 
+	text-align: left; 
+	}
+
+#wrap.centered_report {
+	margin: 0 auto;
+	width: 80%; 
+	text-align: left; 
+	}
+
+p, li, td	{  
+	font-size: 9pt; 
+	font-family: Calibri, "Trebuchet MS", arial, verdana, helvetica, sans-serif; 
+	color: #333; 
+	}
+	
+hr {
+	color: #eee;
+	height: 1px; 
+	display: none;
+	}
+	
+div.logo {
+	text-align: left;
+}	
+
+div.logo_right {
+	text-align: right;
+}	
+
+
+
+div#pagehead {
+/*
+	display: block; 
+	width: 110%; 
+*/
+	margin-bottom: 20px; 
+	margin-left: -16px; 
+	margin-right: -16px; 
+
+	background: #7ea9d3; 
+	border-bottom: 4px solid  #9abfe3; 
+	border-top: 2px solid  #9abfe3; 
+	
+}
+
+table.pagehead {
+	width:600px;  
+}
+
+.trigger, 
+a.trigger, 
+a.trigger:visited, 
+a.trigger:active, 
+
+a.red, 
+a.red:visited, 
+a.red:active
+  {
+	color: #03a2d6; 
+	text-decoration: none;
+	cursor: hand; 
+}
+
+.red {
+	color: #333; 
+	font-weight: bold; 
+} 
+
+
+
+.regtext, 
+.blue {
+	color: teal; 
+	color: #806b4d; 
+	color: #03a2d6; 
+	color: #333; 
+}
+
+.orange, 
+a.orange,
+a.orange:visited, 
+a.orange:active {
+	color: #f60; 
+	text-decoration: none;
+}
+
+.section {
+	display: block;
+	width: 600px; 
+	margin-top: 20px; 
+	margin-bottom: 20px; 
+	border-top: 1px dotted #eee; 
+}
+
+.boxlabel {
+	color:#666; 
+	font-weight: bold;
+}
+
+table.box {
+	background: #fff url(../images/gradient_gray.png) repeat-x top; 
+	border: none;  
+}
+
+table.box_content {
+	background: #fff url(../images/gradient_gray.png) repeat-x top; 
+	border: 1px solid #ededed; 
+}
+
+table.box th {
+	text-align: left; 
+}
+
+.close {
+	float: right;
+	cursor:hand;
+	padding-right: 0;
+	/*margin-top: -22px; */
+}
+
+img.mark {
+	margin-right: 4px; 
+}
+
+h1, h1.main { 
+	font-family: Calibri, "Trebuchet MS", verdana, arial, helvetic, sans-serif; 
+	font-size: 11pt; 
+	color: #333; 
+ }
+
+ h2, h3 { 
+	font-family: Calibri, "Trebuchet MS", verdana, arial, helvetic, sans-serif; 
+	font-size: 10pt; 
+	color: #333; 
+ }
+
+ 
+ .rowstyle0 h2, .rowstyle1 h2 {
+	font-size: 11pt;  
+ } 
+ 
+
+/* modern codes/memos */
+
+table.moderntable {
+	border-top:  none;
+	border-left:   none; 
+	border-right:   none;
+	border-bottom:  none;
+
+	padding: 0; 
+}
+
+
+table.moderntable td  {
+	
+	}
+
+td.left {
+	background: #7ea9d3; 
+}
+
+
+div.rowstyle0, 
+td.rowstyle0 {
+	background-color:#e2f1ff;
+	vertical-align: top; 
+	}
+	
+div.rowstyle1, 
+td.rowstyle1 {
+	background-color:#cedeee;
+	vertical-align: top; 
+	}
+
+div.rowstyle0, div.rowstyle1 
+{
+	padding: 2px; 
+	padding-left: 3px; 
+	/*border: 1px solid #7ea9d3;*/
+}
+
+ 
+	
+	
+/* synopsis */
+
+table.expandTable {
+	border: 1px dotted #ededed; 
+	width: 100%; 
+}
+table.expandTable  td {
+	border-bottom: 1px dotted #ededed; 
+}
+
+table.expandTable  th {
+	font-size: 8pt; 
+	color: #666;
+	}
+
+
+/* authors */
+
+#container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 600px; 
+	
+	border-left: 1px solid #ededed; 
+	padding-left: 2px; 
+}
+
+.divCall {
+	cursor: hand;
+	 }
+
+.divSection {
+	margin-left: 20px; 
+	border-bottom: 1px dotted #ededed; 
+	
+	}
+
+.divGroup {
+	/*cursor: hand;*/
+	border-bottom: 1px dotted #ededed; 
+	}
+
+.divElements {
+	margin-left: 20px;
+	width: 400px; 
+
+	border-left: 1px solid #ededed; 
+/*
+	height: 200px; 
+	overflow: auto;
+*/
+	}	
+
+
+.drag {
+	border-top: 0px solid #fff; 
+	/*background: #fff url(../images/bg02.gif);*/
+	}
+
+.elementTitle {
+	color: #666;; 
+	}
+
+.result {
+	color: #d55d60;
+	font-weight: bold; 
+	cursor: hand;
+}
+
+
+td.rowstyle_inner0 {background-color:#eee;}
+
+td.rowstyle_inner1 {background-color:#fff;}
+
+
+
+/* simple stats table */
+
+table.statstable {
+	background: transparent; 
+	border: none;  
+	width: 100%; 
+}
+
+table.statstable td {
+		padding-left: 20px; 
+}
+
+tr.septr {
+	background: #ccc; 
+	height: 1px;  
+	border: 1px solid; 
+	
+	display: none; 
+}
+
+table.statstable tr td {
+	margin: 10px;
+	padding: 4px; 	
+
+/*	border-bottom: 1px solid #fff; */
+	vertical-align: top; 
+}  
+
+table.statstable table.level3 td 
+{
+	vertical-align: top; 
+	background: transparent; 
+	border: none; 
+}
+
+table.level2 td 
+{
+	border-bottom: 1px solid #fff;
+
+}
+
+table.level2 {
+	background: transparent; 
+}  
+
+table.level3 {
+	background: transparent; 
+	}  
+
+
+	
+/* =====  xml2xml ========= */
+
+
+.instruction {
+	color: #999; 
+} 
+
+.element {
+	color: maroon; 
+}
+
+.attribute {
+	color: navy; 
+}
+
+.content, pre.content {
+	color: #999; 
+}
+
+
+
+/* =====  exp1 ========= */
+
+#containerScroll {
+	margin-left: auto;
+	margin-right: auto;
+	width: 600px; 
+	
+	border-left: 1px solid #ededed; 
+	padding-left: 2px; 
+	
+	height: 500px; 
+	overflow: auto;
+	background: #fff; 
+}
+
+
+
+/* sortable table */
+
+#tableHolder,
+.tableHolder {
+	background: #fff  url(../images/bg02.gif) top repeat-z; 
+	margin-top: -20px; 
+	padding-top: 20px; 
+}
+
+table.STtab {
+	background: transparent; 
+	width: 100%; 
+	
+}
+
+table.STtab tr {
+	padding: 20px; 
+}
+
+table.STtab .tableheader, 
+.tableheader
+ {
+	text-align: center;
+	font-weight: normal; 
+	display: block; 
+	padding: 20px; 
+}
+
+table.STtab .findbox {
+	padding: 10px; 
+	text-align: center; 
+}
+
+table.STtab .findbox div.innerdiv {
+	background: #cedeee; url(../images/lupe02.png) top 10% no-repeat; 	
+	height: 60px; 
+	}
+
+table.STtab .findbox  input {
+	
+	}
+
+input.#findText {
+	font-weight: normal;	
+	font-family: Tahoma, Futura, courier, serif; 
+	font-size: 10pt; 
+	color: #333; 
+	border: 1px solid #9abfe3; 
+}
+
+table.STtab .STarrow {
+	font-size: 16pt; 
+	color: #03a2d6; 
+}
+
+
+/* printable */
+
+div.tablecontainer {
+
+}
+
+table.printabletable {
+	
+}
+
+table.printabletable  th{
+	background: #9abfe3;
+	text-align: left; 
+	font-size: 10pt; 
+}
+
+table.printabletable  th,
+table.printabletable  td{
+	padding-left: 6px;
+	padding-right: 6px; 
+}
+
+div.fillerdiv {
+	display: block; 
+	height: 1px; 
+	width: 20px; 
+}
+
+table.printabletable td.white {
+	background: #fff;
+	height: 36px; 
+}
+
+
+
+
+
+/* tag cloud */
+
+/* set up as two columns, can be arranged side-by-side or one below the other */
+
+div.tagcol {
+	display: block; 
+	float: left; 
+	background: transparent; 
+	width: 100%; 
+	height:400px; 
+	overflow: none; 
+}
+
+div.contentcol {
+	display: block; 
+	float: left; 
+	background: transparent; 
+	width: 100%; 
+	height: 400px; 
+	overflow: auto; 
+	
+	border-top: 1px dotted #eee; 
+	margin-top: 20px; 
+}
+
+td.codeheader {
+	background: transparent; 
+	margin-top: 10; 
+	border-top: 1px dotted #eee; 
+	
+}
+
+div.tagcloud_contentheader {
+	background: #7ea9d3; 
+	color: #fff; 
+	font-size: 12pt; 
+	margin-bottom: 0; 
+	font-weight: bold; 
+	height: 200%;
+}
+
+.tags
+{
+}
+
+.tags a {
+	text-decoration: none;
+}
+
+.tags a.s6 { font-size: 06px; line-height: 06px;  color: #ccc; }
+.tags a.s7 { font-size: 07px; line-height: 07px;  color: #999; }
+.tags a.s8 { font-size: 08px; line-height: 08px;  color: #333; }
+.tags a.s9 { font-size: 09px; line-height: 09px;  color: #ccc; }
+.tags a.s10 { font-size: 10px; line-height: 10px;  color: #999; }
+.tags a.s11 { font-size: 11px; line-height: 11px;  color: #333; }
+.tags a.s12 { font-size: 12px; line-height: 12px;  color: #ccc; }
+.tags a.s13 { font-size: 13px; line-height: 13px;  color: #999; }
+.tags a.s14 { font-size: 14px; line-height: 14px;  color: #333; }
+.tags a.s15 { font-size: 15px; line-height: 15px;  color: #ccc; }
+.tags a.s16 { font-size: 16px; line-height: 16px;  color: #999; }
+.tags a.s17 { font-size: 17px; line-height: 17px;  color: #333; }
+.tags a.s18 { font-size: 18px; line-height: 18px;  color: #ccc; }
+.tags a.s19 { font-size: 19px; line-height: 19px;  color: #999; }
+.tags a.s20 { font-size: 20px; line-height: 20px;  color: #333; }
+.tags a.s21 { font-size: 21px; line-height: 21px;  color: #ccc; }
+.tags a.s22 { font-size: 22px; line-height: 22px;  color: #999; }
+.tags a.s23 { font-size: 23px; line-height: 23px;  color: #333; }
+.tags a.s24 { font-size: 24px; line-height: 24px;  color: #ccc; }
+.tags a.s25 { font-size: 25px; line-height: 25px;  color: #999; }
+.tags a.s26 { font-size: 26px; line-height: 26px;  color: #333; }
+.tags a.s27 { font-size: 27px; line-height: 27px;  color: #ccc; }
+.tags a.s28 { font-size: 28px; line-height: 28px;  color: #999; }
+.tags a.s29 { font-size: 29px; line-height: 29px;  color: #333; }
+.tags a.s30 { font-size: 30px; line-height: 30px;  color: #ccc; }
+.tags a.s31 { font-size: 31px; line-height: 31px;  color: #999; }
+.tags a.s32 { font-size: 32px; line-height: 32px;  color: #333; }
+.tags a.s33 { font-size: 33px; line-height: 33px;  color: #ccc; }
+.tags a.s34 { font-size: 34px; line-height: 34px;  color: #999; }
+.tags a.s35 { font-size: 35px; line-height: 35px;  color: #333; }
+.tags a.s36 { font-size: 36px; line-height: 36px;  color: #ccc; }
+.tags a.s37 { font-size: 37px; line-height: 37px;  color: #999; }
+.tags a.s38 { font-size: 38px; line-height: 38px;  color: #333; }
+.tags a.s39 { font-size: 39px; line-height: 39px;  color: #ccc; }
+.tags a.s40 { font-size: 40px; line-height: 40px;  color: #999; }
+.tags a.s41 { font-size: 41px; line-height: 41px;  color: #333; }
+.tags a.s42 { font-size: 42px; line-height: 42px;  color: #ccc; }
+.tags a.s43 { font-size: 43px; line-height: 43px;  color: #999; }
+.tags a.s44 { font-size: 44px; line-height: 44px;  color: #333; }
+.tags a.s45 { font-size: 45px; line-height: 45px;  color: #ccc; }
+.tags a.s46 { font-size: 46px; line-height: 46px;  color: #999; }
+.tags a.s47 { font-size: 47px; line-height: 47px;  color: #333; }
+.tags a.s48 { font-size: 48px; line-height: 48px;  color: #ccc; }
+.tags a.s49 { font-size: 49px; line-height: 49px;  color: #999; }
+.tags a.s50 { font-size: 50px; line-height: 50px;  color: #333; }
+.tags a.s51 { font-size: 51px; line-height: 51px;  color: #ccc; }
+.tags a.s52 { font-size: 52px; line-height: 52px;  color: #999; }
+.tags a.s53 { font-size: 53px; line-height: 53px;  color: #333; }
+.tags a.s54 { font-size: 54px; line-height: 54px;  color: #ccc; }
+.tags a.s55 { font-size: 55px; line-height: 55px;  color: #999; }
+.tags a.s56 { font-size: 56px; line-height: 56px;  color: #333; }
+.tags a.s57 { font-size: 57px; line-height: 57px;  color: #ccc; }
+.tags a.s58 { font-size: 58px; line-height: 58px;  color: #999; }
+.tags a.s59 { font-size: 59px; line-height: 59px;  color: #333; }
+.tags a.s60 { font-size: 60px; line-height: 60px;  color: #ccc; }
+.tags a.s61 { font-size: 61px; line-height: 61px;  color: #999; }
+.tags a.s62 { font-size: 62px; line-height: 62px;  color: #333; }
+.tags a.s63 { font-size: 63px; line-height: 63px;  color: #ccc; }
+.tags a.s64 { font-size: 64px; line-height: 64px;  color: #999; }
+
+
+
+/* =====  netview ========= */
+
+#containerNetw {
+	
+}
+
+#containerNetw li {
+	list-style: none;
+	margin-left: -20px; 
+}
+
+#inlinemenu {
+	display: block;
+	width: 200px; 
+	float: right;  	
+	border: 1px solid #ccc; 
+	padding: 6px; 
+	background: #fff url(../images/bg02.gif);
+	z-index: auto;
+	cursor: move;
+
+}
+
+#inlinemenu *  {
+	font-size: 9pt; 
+}
+
+.netwDiv {
+	padding: 12px; 
+	border: none; 
+}
+
+/* added jan 2012 */
+
+ul.wide li {
+	padding-top: 10px; 
+}
+
+div.indent {
+	margin-left: 20px; 
+	}
+
+div.innerQuote_noline {
+	border-bottom: none; 
+
+}	
+div.innerQuote {
+	border-bottom: 1px solid #7ea9d3; 
+}	

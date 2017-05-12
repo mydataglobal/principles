@@ -1,0 +1,84 @@
+
+.shadetabs{
+	padding: 3px 0;
+	margin-left: 0;
+	margin-top: 20px;
+	margin-bottom: 0;
+	font: bold 12px Verdana;
+	list-style-type: none;
+	text-align: left; /*set to left, center, or right to align the menu as desired*/
+}
+
+.shadetabs li {
+	display: inline;
+	margin: 0;
+	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9pt; 
+}
+
+.shadetabs li a {
+	text-decoration: none;
+	padding: 3px 10px;
+	margin-right: 1px;
+	border: 1px solid #ededed;
+	color: #2d2b2b;
+	background:  url(../images/zero_bg_menu_04.png) repeat-x top;
+
+}
+
+.shadetabs li a:visited {
+	text-decoration: none;
+	color: #2d2b2b;
+}
+
+.shadetabs li a:hover {
+	text-decoration: none;
+	color: #2d2b2b;
+}
+
+.shadetabs li.selected {
+	text-decoration: none;
+	
+}
+
+.shadetabs li.selected a { /*selected main tab style */
+	text-decoration: none;
+	background:  url(../images/zero_bg_menu_06.png) repeat-x top;
+	border-bottom-color: #fff;
+}
+
+.shadetabs li.selected a:hover{ /*selected main tab style */
+	text-decoration: none;
+}
+
+
+.tabcontentstyle{ /*style of tab content oontainer*/
+	border: 1px solid #ededed;
+	margin-bottom: 1em;
+
+}
+
+.tabcontent{
+	display:none;
+	padding-top: 10px; 
+	background: #fff; 
+}
+
+table.entitytable {
+	width: 100%; 
+}
+
+span.hascontent {
+	font-weight: bold; 
+	color: #7ea9d3; 
+	color: #446e97; 
+}
+
+
+@media print {
+
+.tabcontent {
+	display:block!important;
+	}
+}
